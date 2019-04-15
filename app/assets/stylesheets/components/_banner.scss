@@ -1,0 +1,34 @@
+.container {
+  background-color: white;
+  padding: 0px;
+}
+.category-banner {
+  margin-top: 10px;
+}
+
+.home-cateogry-box {
+  display: flex;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.home-category-box-left{
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 35%;
+}
+
+.home-category-box-right{
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+}
+
+.introduction-text {
+  text-align: left;
+  padding: 20px;
+  letter-spacing: 0.015em;
+  word-spacing: 0.015em;
+  line-height: 38px;
+  margin-bottom: 40px;
+}

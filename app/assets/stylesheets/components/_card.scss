@@ -1,0 +1,64 @@
+.card {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin: 2px;
+  border-radius: 12px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.travel:hover {
+  background-image: url("https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1693&q=80");
+  filter: grayscale(100%);
+}
+.career:hover {
+  background-image: url("https://images.unsplash.com/photo-1459180129673-eefb56f79b45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+}
+.soul:hover {
+  background-image: url("https://images.unsplash.com/photo-1468234847176-28606331216a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2515&q=80");
+}
+.money:hover {
+  background-image: url("https://images.unsplash.com/photo-1522186630107-e5bdf12a43b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1666&q=80");
+}
+.health:hover {
+  background-image: url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80");
+}
+.relationship:hover {
+  background-image: url("https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+}
+.product:hover {
+  background-image: url("https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-1.2.1&auto=format&fit=crop&w=2444&q=80");
+}
+.homelife:hover {
+  background-image: url("https://images.unsplash.com/photo-1524634126442-357e0eac3c14?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+}
+
