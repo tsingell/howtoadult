@@ -30,7 +30,7 @@
  -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
-    border: white;
+    border: $red 4px solid;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     color: white;
 }
@@ -39,7 +39,7 @@
    -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
-    border: white;
+    border: $orange 4px solid;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     color: white;
 }
@@ -48,7 +48,7 @@
    -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
-    border: white;
+    border: $yellow 4px solid;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     color: white;
 }
@@ -57,7 +57,7 @@
    -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
-    border: white;
+    border: $green 4px solid;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     color: white;
 }
@@ -66,7 +66,7 @@
    -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
-    border: white;
+    border: $blue 4px solid;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     color: white;
 }
@@ -75,7 +75,7 @@
    -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
-    border: white;
+    border: $purple 4px solid;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     color: white;
 }
@@ -84,7 +84,7 @@
    -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
-    border: white;
+    border: $pink 4px solid;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     color: white;
 }
@@ -93,7 +93,7 @@
    -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
-    border: white;
+    border: $gray 4px solid;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     color: white;
 }
@@ -134,35 +134,35 @@
 
 // full border
 .red-border {
-  border: $red solid 5px;
+  border: $red solid 4px;
   -webkit-transition: border 0.2s;
 }
 .orange-border {
-  border: $orange solid 5px;
+  border: $orange solid 4px;
   -webkit-transition: border 0.2s;
 }
 .yellow-border {
-  border: $yellow solid 5px;
+  border: $yellow solid 4px;
   -webkit-transition: border 0.2s;
 }
 .green-border {
-  border: $green solid 5px;
+  border: $green solid 4px;
   -webkit-transition: border 0.2s;
 }
 .blue-border {
-  border: $blue solid 5px;
+  border: $blue solid 4px;
   -webkit-transition: border 0.2s;
 }
 .purple-border {
-  border: $purple solid 5px;
+  border: $purple solid 4px;
   -webkit-transition: border 0.2s;
 }
 .pink-border {
-  border: $pink solid 5px;
+  border: $pink solid 4px;
   -webkit-transition: border 0.2s;
 }
 .gray-border {
-  border: $gray solid 5px;
+  border: $gray solid 4px;
   -webkit-transition: border 0.2s;
 }
 
