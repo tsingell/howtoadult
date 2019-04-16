@@ -134,36 +134,43 @@
 
 // full border
 .red-border {
-  border: $red solid 4px;
+  border: $red solid 15px;
   -webkit-transition: border 0.2s;
 }
 .orange-border {
-  border: $orange solid 4px;
+  border: $orange solid 15px;
   -webkit-transition: border 0.2s;
 }
 .yellow-border {
-  border: $yellow solid 4px;
+  border: $yellow solid 15px;
   -webkit-transition: border 0.2s;
 }
 .green-border {
-  border: $green solid 4px;
+  border: $green solid 15px;
   -webkit-transition: border 0.2s;
 }
 .blue-border {
-  border: $blue solid 4px;
+  border: $blue solid 15px;
   -webkit-transition: border 0.2s;
 }
 .purple-border {
-  border: $purple solid 4px;
+  border: $purple solid 15px;
   -webkit-transition: border 0.2s;
 }
 .pink-border {
-  border: $pink solid 4px;
+  border: $pink solid 15px;
   -webkit-transition: border 0.2s;
 }
 .gray-border {
-  border: $gray solid 4px;
+  border: $gray solid 15px;
   -webkit-transition: border 0.2s;
+}
+
+.white-dissapear:hover {
+    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(242,67,51,0.75)), url("https://images.unsplash.com/photo-1461237439866-5a557710c921?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+   -webkit-transition: background-image 250ms linear;
+    -ms-transition: background-image 250ms linear;
+    transition: background-image 250ms linear;
 }
 
 

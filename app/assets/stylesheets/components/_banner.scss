@@ -37,4 +37,11 @@
 .sub-header-text {
   color: $light-gray;
   font-weight: lighter;
+   display: flex;
+  align-items: top;
+  justify-content: flex-start;
+}
+
+.cateogry-text-padding-left {
+  padding-left: 10px;
 }
