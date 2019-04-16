@@ -7,6 +7,8 @@
   position: relative;
   margin: 2px;
   border-radius: 12px;
+  border:none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-description {
@@ -16,10 +18,10 @@
 }
 .card-description h2 {
   font-size: 24px;
+    font-weight: lighter;
 }
 .card-description p {
   font-size: 14px;
-  opacity: 0.7;
   font-weight: lighter;
 }
 .card-link {
@@ -33,32 +35,72 @@
   opacity: 0;
 }
 .card-link:hover {
-  opacity: 0.1;
+  border: none;
 }
 
-.travel:hover {
-  background-image: url("https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1693&q=80");
-  filter: grayscale(100%);
+.travel {
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(242,67,51,0.75)), url("https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1693&q=80");
+
 }
-.career:hover {
-  background-image: url("https://images.unsplash.com/photo-1459180129673-eefb56f79b45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+.career {
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,159,70,0.75)), url("https://images.unsplash.com/photo-1459180129673-eefb56f79b45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
 }
-.soul:hover {
-  background-image: url("https://images.unsplash.com/photo-1468234847176-28606331216a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2515&q=80");
+.soul {
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,190,11,0.75)), url("https://images.unsplash.com/photo-1468234847176-28606331216a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2515&q=80");
 }
-.money:hover {
-  background-image: url("https://images.unsplash.com/photo-1522186630107-e5bdf12a43b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1666&q=80");
+.money {
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(110,235,131,0.75)), url("https://images.unsplash.com/photo-1522186630107-e5bdf12a43b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1666&q=80");
 }
-.health:hover {
-  background-image: url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80");
+.health {
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(70,111,255,0.75)), url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80");
 }
-.relationship:hover {
-  background-image: url("https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+.relationship {
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(164,73,255,0.75)), url("https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
 }
-.product:hover {
-  background-image: url("https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-1.2.1&auto=format&fit=crop&w=2444&q=80");
+.product {
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(240,140,174,0.75)), url("https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-1.2.1&auto=format&fit=crop&w=2444&q=80");
 }
-.homelife:hover {
-  background-image: url("https://images.unsplash.com/photo-1524634126442-357e0eac3c14?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+.homelife {
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(46,52,74,0.75)), url("https://images.unsplash.com/photo-1524634126442-357e0eac3c14?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
 }
 
+.featured-card {
+  height: 100px;
+  //text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: $light-gray;
+  //position: relative;
+  margin: 2px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.featured-card-description {
+  //position: absolute;
+  //bottom: 10px;
+  display: flex;
+  justify-content: center;
+  lign-items: center;
+}
+.featured-card-description h2 {
+  font-size: 18px;
+    font-weight: lighter;
+}
+.featured-card-description p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.featured-card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.featured-card-link:hover {
+  border: none;
+}

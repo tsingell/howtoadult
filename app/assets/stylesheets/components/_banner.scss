@@ -4,6 +4,7 @@
 }
 .category-banner {
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .home-cateogry-box {
@@ -25,10 +26,15 @@
 }
 
 .introduction-text {
-  text-align: left;
+  text-align: center;
   padding: 20px;
   letter-spacing: 0.015em;
   word-spacing: 0.015em;
   line-height: 38px;
   margin-bottom: 40px;
+}
+
+.sub-header-text {
+  color: $light-gray;
+  font-weight: lighter;
 }

@@ -25,53 +25,145 @@
 }
 
 // background fill
-.red-fill {
+.red-fill:hover {
   background-color: $red;
+ -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    border: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
 }
-.orange-fill {
+.orange-fill:hover {
   background-color: $orange;
+   -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    border: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
 }
-.yellow-fill {
+.yellow-fill:hover {
   background-color: $yellow;
+   -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    border: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
 }
-.green-fill {
+.green-fill:hover {
   background-color: $green;
+   -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    border: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
 }
-.blue-fill {
+.blue-fill:hover {
   background-color: $blue;
+   -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    border: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
 }
-.purple-fill {
+.purple-fill:hover {
   background-color: $purple;
+   -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    border: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
 }
-.pink-fill {
+.pink-fill:hover {
   background-color: $pink;
+   -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    border: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
 }
-.gray-fill {
+.gray-fill:hover {
   background-color: $gray;
+   -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    border: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
 }
 
-// border
+// border-top
+.red-border-top:hover {
+  border-top: $red solid 15px;
+  -webkit-transition: border 0.2s;
+}
+.orange-border-top:hover {
+  border-top: $orange solid 15px;
+  -webkit-transition: border 0.2s;
+}
+.yellow-border-top:hover {
+  border-top: $yellow solid 15px;
+  -webkit-transition: border 0.2s;
+}
+.green-border-top:hover {
+  border-top: $green solid 15px;
+  -webkit-transition: border 0.2s;
+}
+.blue-border-top:hover {
+  border-top: $blue solid 15px;
+  -webkit-transition: border 0.2s;
+}
+.purple-border-top:hover {
+  border-top: $purple solid 15px;
+  -webkit-transition: border 0.2s;
+}
+.pink-border-top:hover {
+  border-top: $pink solid 15px;
+  -webkit-transition: border 0.2s;
+}
+.gray-border-top:hover {
+  border-top: $gray solid 15px;
+  -webkit-transition: border 0.2s;
+}
+
+// full border
 .red-border {
-  border: $red solid 12px;
+  border: $red solid 5px;
+  -webkit-transition: border 0.2s;
 }
 .orange-border {
-  border: $orange solid 12px;
+  border: $orange solid 5px;
+  -webkit-transition: border 0.2s;
 }
 .yellow-border {
-  border: $yellow solid 12px;
+  border: $yellow solid 5px;
+  -webkit-transition: border 0.2s;
 }
 .green-border {
-  border: $green solid 12px;
+  border: $green solid 5px;
+  -webkit-transition: border 0.2s;
 }
 .blue-border {
-  border: $blue solid 12px;
+  border: $blue solid 5px;
+  -webkit-transition: border 0.2s;
 }
 .purple-border {
-  border: $purple solid 12px;
+  border: $purple solid 5px;
+  -webkit-transition: border 0.2s;
 }
 .pink-border {
-  border: $pink solid 12px;
+  border: $pink solid 5px;
+  -webkit-transition: border 0.2s;
 }
 .gray-border {
-  border: $gray solid 12px;
+  border: $gray solid 5px;
+  -webkit-transition: border 0.2s;
 }
+
+
