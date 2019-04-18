@@ -1,0 +1,8 @@
+.red-btn {
+  background-color: lighten($red, 3%);
+  color: white;
+}
+
+.red-btn:hover {
+  background-color: $red;
+}
