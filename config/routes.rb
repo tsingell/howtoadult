@@ -9,7 +9,12 @@ Rails.application.routes.draw do
   get 'products', to: 'pages#products'
   get 'household', to: 'pages#household'
 
+  resources :travel, only: [:index] do
   get 'travel', to: 'travel#index'
+    collection do
+      get "t_article1", to: "travel#t_article1"
+    end
+  end
 
   root to: 'pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

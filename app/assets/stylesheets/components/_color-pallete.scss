@@ -29,79 +29,144 @@
 .gold-text {
   color: $gold !important;
 }
+.black-text {
+  color: $black !important;
+}
+
+// background color with white text
+.red-text-box {
+  background-color: $red;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.orange-text-box {
+  background-color: $orange;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.yellow-text-box {
+  background-color: $yellow;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.green-text-box {
+  background-color: $green;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.blue-text-box {
+  background-color: $blue;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.purple-text-box {
+  background-color: $purple;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.pink-text-box {
+  background-color: $pink;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.gray-text-box {
+  background-color: $gray;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.light-gray-text-box {
+  background-color: $light-gray;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.gold-text-box {
+  background-color: $gold;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
 
 // background fill
 .red-fill:hover {
   background-color: $red;
- -webkit-transition: background-color 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    transition: background-color 250ms linear;
-    border: $red 4px solid;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    color: white;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  border: $red 4px solid;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
 }
 .orange-fill:hover {
   background-color: $orange;
-   -webkit-transition: background-color 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    transition: background-color 250ms linear;
-    border: $orange 4px solid;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    color: white;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  border: $orange 4px solid;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
 }
 .yellow-fill:hover {
   background-color: $yellow;
-   -webkit-transition: background-color 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    transition: background-color 250ms linear;
-    border: $yellow 4px solid;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    color: white;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  border: $yellow 4px solid;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
 }
 .green-fill:hover {
   background-color: $green;
-   -webkit-transition: background-color 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    transition: background-color 250ms linear;
-    border: $green 4px solid;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    color: white;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  border: $green 4px solid;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
 }
 .blue-fill:hover {
   background-color: $blue;
-   -webkit-transition: background-color 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    transition: background-color 250ms linear;
-    border: $blue 4px solid;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    color: white;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  border: $blue 4px solid;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
 }
 .purple-fill:hover {
   background-color: $purple;
-   -webkit-transition: background-color 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    transition: background-color 250ms linear;
-    border: $purple 4px solid;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    color: white;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  border: $purple 4px solid;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
 }
 .pink-fill:hover {
   background-color: $pink;
-   -webkit-transition: background-color 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    transition: background-color 250ms linear;
-    border: $pink 4px solid;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    color: white;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  border: $pink 4px solid;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
 }
 .gray-fill:hover {
   background-color: $gray;
-   -webkit-transition: background-color 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    transition: background-color 250ms linear;
-    border: $gray 4px solid;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    color: white;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  border: $gray 4px solid;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
 }
 
 // border-top
@@ -173,10 +238,10 @@
 }
 
 .white-dissapear:hover {
-    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(242,67,51,0.75)), url("https://images.unsplash.com/photo-1461237439866-5a557710c921?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
-   -webkit-transition: background-image 250ms linear;
-    -ms-transition: background-image 250ms linear;
-    transition: background-image 250ms linear;
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(242,67,51,0.75)), url("https://images.unsplash.com/photo-1461237439866-5a557710c921?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+  -webkit-transition: background-image 250ms linear;
+  -ms-transition: background-image 250ms linear;
+  transition: background-image 250ms linear;
 }
 
 

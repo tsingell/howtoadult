@@ -1,5 +1,11 @@
 <div class="container">
   <div class="category-banner">
+    <div class="introduction-text-category">
+      <h3>
+        <span class="red-text-box">
+        Go somewhere you've never been before...</span>
+      </h3>
+    </div>
 
     <div class="sub-header-text">
       <h5 class="red-text"> Travel </h5>
@@ -13,7 +19,7 @@
             <h2><span>The Top Places to Travel in the World</span> </h2>
             <p><span>A budget-friendly guide for what to see without the crowds</span></p>
           </div>
-          <%= link_to "", travel_path, :class => "category-card-link" %>
+          <%= link_to "", travel_index_path, :class => "category-card-link" %>
         </div>
       </div>
     </div> -->
@@ -29,7 +35,7 @@
             <p><span>Reading Time: < 5 min</span></p>
           </div>
         </div>
-        <%= link_to "", travel_path, :class => "category-card-link" %>
+        <%= link_to "", t_article1_travel_index_path, :class => "category-card-link" %>
       </div>
     </div>
     <div class="col-xs-12 col-lg-6">
@@ -43,7 +49,7 @@
             <p><span>Reading Time: < 5 min</span></p>
           </div>
         </div>
-        <%= link_to "", travel_path, :class => "category-card-link" %>
+        <%= link_to "", travel_index_path, :class => "category-card-link" %>
       </div>
     </div>
     <div class="col-xs-12 col-lg-6">
@@ -59,7 +65,7 @@
             <p><span>Readers Choice</span></p>
           </div>
         </div>
-        <%= link_to "", travel_path, :class => "category-card-link" %>
+        <%= link_to "", travel_index_path, :class => "category-card-link" %>
       </div>
     </div>
     <div class="col-xs-12 col-lg-6">
@@ -73,7 +79,7 @@
             <p><span>Reading Time: < 5 min</span></p>
           </div>
         </div>
-        <%= link_to "", travel_path, :class => "category-card-link" %>
+        <%= link_to "", travel_index_path, :class => "category-card-link" %>
       </div>
     </div>
     <div class="col-xs-12 col-lg-6">
@@ -87,7 +93,7 @@
             <p><span>Reading Time: 5-10 min</span></p>
           </div>
         </div>
-        <%= link_to "", travel_path, :class => "category-card-link" %>
+        <%= link_to "", travel_index_path, :class => "category-card-link" %>
       </div>
     </div>
     <div class="col-xs-12 col-lg-6">
@@ -101,17 +107,17 @@
             <p><span>Reading Time: < 5 min</span></p>
           </div>
         </div>
-        <%= link_to "", travel_path, :class => "category-card-link" %>
+        <%= link_to "", travel_index_path, :class => "category-card-link" %>
       </div>
     </div>
   </div>
 </div>
 </div>
 </div>
-  <div class="featured-header-text">
-    <h5 class="red-text"> Featured Artcile </h5>
-    <p class="cateogry-text-padding-left light-gray-text"> Important Information People </p>
-  </div>
+<div class="featured-header-text">
+  <h5 class="red-text"> Featured Article </h5>
+  <p class="cateogry-text-padding-left light-gray-text"> Important Information People </p>
+</div>
 <div class="featured-article" style="background-image: linear-gradient(-225deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 50%), url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1308&q=80');">
   <div class="featured-article-content">
     <h1 class="red-text"><span>The Top Places to Travel in the World</span></h1>
@@ -119,3 +125,68 @@
     <a class="btn red-btn btn-lg">Discover</a>
   </div>
 </div>
+<div class="container">
+  <div class="category-banner">
+<div class="sub-header-text">
+      <h5 class="black-text"> Crossover Articles </h5>
+      <p class="cateogry-text-padding-left"> Popular Articles you Might Also Like </p>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3 col-md-2">
+        <div class="card travel-colored red-border-top" >
+          <div class="card-description">
+            <h2> The 10 places to explore next year</h2>
+            <p> Stop dragging your partners ass around the world and take charge </p>
+          </div>
+          <%= link_to "", travel_index_path, :class => "card-link" %>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-2">
+        <div class="card career-colored orange-border-top" >
+          <div class="card-description">
+            <h2>Career</h2>
+            <p>where can I add value</p>
+          </div>
+          <%= link_to "", career_path, :class => "card-link" %>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-2">
+        <div class="card soul-colored yellow-border-top" >
+          <div class="card-description">
+            <h2>Soul</h2>
+            <p>what should I do with my time</p>
+          </div>
+          <%= link_to "", soul_path, :class => "card-link" %>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-2">
+        <div class="card money-colored green-border-top" >
+          <div class="card-description">
+            <h2>Money</h2>
+            <p>how do I afford what I need</p>
+          </div>
+          <%= link_to "", money_path, :class => "card-link" %>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-2">
+        <div class="card health-colored blue-border-top" >
+          <div class="card-description">
+            <h2>Health</h2>
+            <p>how to be my healthiest self</p>
+          </div>
+          <%= link_to "", health_path, :class => "card-link" %>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-2">
+        <div class="card relationship-colored purple-border-top" >
+          <div class="card-description">
+            <h2>Relationships</h2>
+            <p>build meaningful connections</p>
+          </div>
+          <%= link_to "", relationships_path, :class => "card-link" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
